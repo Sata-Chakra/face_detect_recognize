@@ -81,6 +81,28 @@ python face_recognition_strict_general.py
 It will open your webcam and annotate detected faces in real-time.
 
 
+# 🌐 Flask API Usage
+The system exposes two REST endpoints:
+
+## 1. Register a New Face
+
+* POST /register_face
+
+* Form Data:
+```
+image: JPEG/PNG file
+
+name: string name for the person
+```
+
+## 2. Detect Face from Image
+* POST /detect_face
+
+* Form Data:
+```
+image: JPEG/PNG file
+```
+
 # ⚙️ Configuration
 
 You can tweak these values in face_recognition_strict_general.py:
