@@ -10,6 +10,7 @@ This face recognition system is built entirely on top of the face_recognition li
 
 *  Includes confidence visualization and real-time labeling in webcam streams.
 
+* Exposes the logic as a RESTful API for scalable integration.
 # The Project includes:
 
 - 🧠 Face encoding with name tagging from a folder of images
@@ -17,6 +18,7 @@ This face recognition system is built entirely on top of the face_recognition li
 - ⚡ Efficient in-memory matching with customizable distance metric
 - 🛡️ Strict logic to avoid misclassification of unknown faces
 - 🧪 Support for visual confidence display and tuning of thresholds
+- 🌐 Flask API for registration and detection
 
 ---
 
